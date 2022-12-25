@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/future" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="411dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="700px"
+            android:textColor="@color/black"
+            android:text=" Союз «Молодые профессионалы (Ворлдскиллс Россия)» – официальный оператор международного некоммерческого движения WorldSkills International, миссия которого – повышение стандартов подготовки кадров.\n \t Наш девиз: «Делай мир лучше силой своего мастерства!» («Improving the world with the power of skills!»).\n \t Раз в два года одна из 84 стран-участниц движения проводит мировой чемпионат профессионального мастерства. В 2019-м он прошел в России (WorldSkillsKazan 2019).\n \t WorldSkills Russia проводит всероссийские чемпионаты профессионального мастерства по пяти направлениям:\n \t Конкурсы профессионального мастерства между студентами колледжей и техникумов в возрасте до 22 лет. Раз в год победители региональных первенств соревнуются на Национальном финале «Молодые профессионалы» (WorldSkillsRussia). Из победителей формируется расширенный состав национальной сборной для участия в мировом чемпионате WorldSkills Competition. С 2017 года появилась отдельная возрастная линейка – юниоры WorldSkills (16 и младше лет).\n \t Корпоративные чемпионаты, которые проводятся на производственных площадках крупнейших российских компаний. В них принимают участие молодые рабочие в возрасте от 16 до 28 лет. Победители представляют свою корпорацию на ежегодном финале WorldSkills Hi-Tech.\n \t Чемпионат в сфере высокотехнологичных профессий IT-сектора" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
